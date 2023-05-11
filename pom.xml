@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>netology.ru</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>SpringBoot_Homework_1_Conditional</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>SpringBoot_Homework_1_Conditional</name>
+    <description>SpringBoot_Homework_1_Conditional</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -44,6 +44,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
                 <configuration>
                     <excludes>
                         <exclude>
